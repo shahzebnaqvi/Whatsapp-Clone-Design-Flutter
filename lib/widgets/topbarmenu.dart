@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp/calls.dart';
+import 'package:whatsapp/home.dart';
+import 'package:whatsapp/status.dart';
 
 class topbarmenu extends StatelessWidget {
   const topbarmenu({Key? key}) : super(key: key);
@@ -25,7 +28,10 @@ class topbarmenu extends StatelessWidget {
           color: Colors.green,
           child: Center(
             child: TextButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => home()));
+              },
               child: Text(
                 "CHATS",
                 style: TextStyle(
@@ -43,7 +49,10 @@ class topbarmenu extends StatelessWidget {
           color: Colors.green,
           child: Center(
             child: TextButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => status()));
+              },
               child: Text(
                 "STATUS",
                 style: TextStyle(
@@ -61,7 +70,10 @@ class topbarmenu extends StatelessWidget {
           color: Colors.green,
           child: Center(
             child: TextButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => calls()));
+              },
               child: Text(
                 "CALL",
                 style: TextStyle(

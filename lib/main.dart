@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp/begin.dart';
-import 'package:whatsapp/calls.dart';
 import 'package:whatsapp/home.dart';
-import 'package:whatsapp/status.dart';
 
 void main() {
   runApp(const MyApp());
