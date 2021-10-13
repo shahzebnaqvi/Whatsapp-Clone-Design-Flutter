@@ -24,12 +24,15 @@ class topbarmenu extends StatelessWidget {
           height: 60,
           color: Colors.green,
           child: Center(
-            child: Text(
-              "CHATS",
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
+            child: TextButton(
+              onPressed: () {},
+              child: Text(
+                "CHATS",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
           ),
@@ -39,12 +42,15 @@ class topbarmenu extends StatelessWidget {
           height: 60,
           color: Colors.green,
           child: Center(
-            child: Text(
-              "STATUS",
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
+            child: TextButton(
+              onPressed: () {},
+              child: Text(
+                "STATUS",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
           ),
@@ -54,12 +60,15 @@ class topbarmenu extends StatelessWidget {
           height: 60,
           color: Colors.green,
           child: Center(
-            child: Text(
-              "CALL",
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
+            child: TextButton(
+              onPressed: () {},
+              child: Text(
+                "CALL",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
           ),
