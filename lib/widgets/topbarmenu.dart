@@ -23,7 +23,7 @@ class topbarmenu extends StatelessWidget {
         ),
         // topbutton(150.0, 50.0 "Colors.green", "as"),
         Container(
-          width: 127,
+          width: 96,
           height: 60,
           color: Colors.green,
           child: Center(
@@ -36,7 +36,7 @@ class topbarmenu extends StatelessWidget {
                 "CHATS",
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 18,
+                  fontSize: 16,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -44,7 +44,7 @@ class topbarmenu extends StatelessWidget {
           ),
         ),
         Container(
-          width: 127,
+          width: 97,
           height: 60,
           color: Colors.green,
           child: Center(
@@ -57,7 +57,7 @@ class topbarmenu extends StatelessWidget {
                 "STATUS",
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 18,
+                  fontSize: 16,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -65,7 +65,7 @@ class topbarmenu extends StatelessWidget {
           ),
         ),
         Container(
-          width: 127,
+          width: 97,
           height: 60,
           color: Colors.green,
           child: Center(
@@ -78,7 +78,7 @@ class topbarmenu extends StatelessWidget {
                 "CALL",
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 18,
+                  fontSize: 16,
                   fontWeight: FontWeight.bold,
                 ),
               ),
